@@ -5,7 +5,7 @@
 
     
 
-un challenge  pour le fun (faire une petite pizza)
+un challenge  pour le fun (faire une petite pizza full css)
 
 
     
