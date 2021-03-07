@@ -1,0 +1,193 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    height:100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+}
+
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+    -webkit-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+            transform: rotate(60deg);
+}
+
+.cass--m1 {
+    background: black;
+    height:350px;
+    width: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-box-shadow: 0 0 10px black;
+            box-shadow: 0 0 10px black;
+}
+
+.cass--r2 {
+    background: black;
+    width:450px;
+    height:450px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+    -webkit-box-shadow: 0 0 30px black;
+            box-shadow: 0 0 30px black;
+}
+
+
+
+.pizza {
+    background: gold;
+    width:300px;
+    height:300px;
+    -webkit-clip-path: polygon(0 54%, 100% 100%, 100% 1%);
+            clip-path: polygon(0 54%, 100% 100%, 100% 1%);
+    -webkit-transform: rotate(-110deg);
+        -ms-transform: rotate(-110deg);
+            transform: rotate(-110deg);
+    border-right: 30px solid orange ;
+    -webkit-box-shadow: 0 0 30px gold;
+            box-shadow: 0 0 30px gold;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+}
+
+
+.box--o{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+}
+
+.oeil-1{
+    background: white;
+    width: 60px;
+    height:37px;
+    border-radius: 50%;
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+    position: absolute;
+    left: 40px;
+    top: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+}
+
+
+.o-b-1{
+    background: black;
+    width: 10px;
+    height:10px;
+    border-radius: 50%;
+}
+
+
+.oeil-2{
+    background: white;
+    width: 60px;
+    height:37px;
+    border-radius: 50%;
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+    position: absolute;
+    left: 40px;
+    top: -70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+}
+
+
+.o-b-2{
+    background: black;
+    width: 10px;
+    height:10px;
+    border-radius: 50%;
+}
+
+
+.b--pizza{
+    background:#f1aa10;
+    width: 25px;
+    height:105px;
+    border-radius: 50%;  
+    display: -webkit-box;  
+    display: -ms-flexbox;  
+    display: flex;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+}
+
+
+@media screen and (max-width:706px){
+    .cass--m1 {
+        height:250px;
+        width: 20px;
+    }
+}
+
+
