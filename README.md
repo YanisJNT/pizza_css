@@ -1,11 +1,6 @@
 # pizza_css
 
 
-# site_hopital_web
-challenge web front
-
-
-
 ### Link site : 
 
     
